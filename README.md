@@ -3,7 +3,8 @@ In this project, let's build a Admin UI by using the React js concepts.
 
 (https://user-images.githubusercontent.com/89067902/155120034-edf14407-a59c-464a-a5fb-e923662f937e.png)
 
-Set Up Instructions
+Set Up Instructions: 
+
 Download dependencies by running npm install
 Start up the app using npm start
 Use third-party-packages are npm install styled-components --save, npm install react-loader-spinner --save used in out projects .
@@ -38,6 +39,7 @@ Sample Success Response
 [ { "id": "1", "name": "Aaron Miles", "email": "aaron@mailinator.com", "role": "member" }, { "id": "2", "name": "Aishwarya Naik", "email": "aishwarya@mailinator.com", "role": "member" }, { "id": "3", "name": "Arvind Kumar", "email": "arvind@mailinator.com", "role": "admin" } ]
 
 Important Instructions:
+
 
 Wrap the Loader component with an HTML container element and add the testid attribute value as loader to it
 <div className="loader-container" testid="loader">

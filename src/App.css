@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.admin-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.users-list {
+  list-style-type: none;
+  padding-inline-start: 0%;
+  min-height: 80vh;
+}
+
+.user-list-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px solid gray;
+}
+
+.checkbox {
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+}
+
+.header-name {
+  font-size: 24px;
+  width: 20vw;
+  font-family: 'Roboto';
+}
+
+.header-email {
+  font-size: 24px;
+  width: 20vw;
+  font-family: 'Roboto';
+}
+
+.header-role {
+  font-size: 24px;
+  width: 20vw;
+  font-family: 'Roboto';
+}
+
+.header-actions {
+  font-size: 24px;
+  width: 20vw;
+  font-family: 'Roboto';
+}
+
+.search-input {
+  width: 95vw;
+  padding: 8px;
+  margin-top: 8px;
+  font-size: 16px;
+  border: 0.5px solid gray;
+}
